@@ -1,0 +1,6 @@
+[submodule "tpls/rapidjson"]
+	path = tpls/rapidjson
+	url = https://github.com/miloyip/rapidjson.git
+[submodule "tpls/cppzmq"]
+	path = tpls/cppzmq
+	url = https://github.com/zeromq/cppzmq.git
