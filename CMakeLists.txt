@@ -145,6 +145,6 @@ install(TARGETS armish-fireplace
 ##########################################################################################
 # UNINSTALL
 ##########################################################################################
-add_custom_target(uninstall
-		COMMAND ${CMAKE_COMMAND} -P ${CMAKE_MODULE_PATH}/uninstall.cmake
-)
+#add_custom_target(uninstall
+#		COMMAND ${CMAKE_COMMAND} -P ${CMAKE_MODULE_PATH}/uninstall.cmake
+#)
