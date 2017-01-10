@@ -44,9 +44,9 @@ list(APPEND module_sources
 )
 
 # Makes header includes more concise
-include_directories("${CMAKE_SOURCE_DIR}/")
-include_directories("${CMAKE_SOURCE_DIR}/tpls/")
-include_directories("${CMAKE_SOURCE_DIR}/tpls/rapidjson/include/")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/tpls/")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/tpls/rapidjson/include/")
 
 ##########################################################################################
 # CONFIGURE BUILD TYPE
