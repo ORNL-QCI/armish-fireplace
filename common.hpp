@@ -57,12 +57,12 @@
 /**
  * \brief Enable SSE4.2 optimization for rapidjson.
  */
-#	define RAPIDJSON_SSE42
+//#	define RAPIDJSON_SSE42
 #elif defined(__SSE2__)
 /**
  * \brief Enable SSE2 optimization for rapidjson.
  */
-#	define RAPIDJSON_SSE2
+//#	define RAPIDJSON_SSE2
 #endif
 
 /**
