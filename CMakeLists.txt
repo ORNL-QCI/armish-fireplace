@@ -35,6 +35,7 @@ list(APPEND module_sources
 		module/brazil/brazil.cpp
 		module/brazil/proc_unit/trx_circuit.cpp
 		module/brazil/proc_unit/lcc_and_fpga.cpp
+		module/brazil/proc_unit/bobwire_circuit.cpp
 )
 
 list(APPEND module_sources

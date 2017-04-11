@@ -9,6 +9,7 @@ namespace module {
 					::actions::actions_t::PUSH,
 					::actions::actions_t::WAIT>()) {
 			imodule::proc_unit_list_t m;
+			m["bobwire_circuit"] = &proc_unit::bobwire_circuit::initialize;
 			m["trx_circuit"] = &proc_unit::trx_circuit::initialize;
 			m["lcc_and_fpga"] = &proc_unit::lcc_and_fpga::initialize;
 			register_proc_units(std::move(m));

@@ -262,7 +262,7 @@ namespace module {
 			 */
 			std::condition_variable hasReceivedCV;
 		
-		 private:
+		// private:
 			/**
 			 * \brief The network information for accepting communication requests.
 			 */

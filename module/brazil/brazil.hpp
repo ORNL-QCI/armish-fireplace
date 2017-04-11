@@ -3,6 +3,7 @@
 
 #include <common.hpp>
 #include "../imodule.hpp"
+#include "proc_unit/bobwire_circuit.hpp"
 #include "proc_unit/trx_circuit.hpp"
 #include "proc_unit/lcc_and_fpga.hpp"
 
